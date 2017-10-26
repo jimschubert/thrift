@@ -1,5 +1,7 @@
 FROM ubuntu:12.04
 
+LABEL maintainer "Jim Schubert <james.schubert@gmail.com>"
+
 RUN buildDeps=" \
         flex \
         bison \
